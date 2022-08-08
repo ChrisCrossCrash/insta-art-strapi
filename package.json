@@ -9,7 +9,8 @@
     "build": "strapi build",
     "strapi": "strapi",
     "format": "prettier --write .",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "generate-types": "yarn strapi ts:generate-types --verbose"
   },
   "devDependencies": {
     "@strapi-community/eslint-config": "^0.4.3",
