@@ -14,3 +14,5 @@ parserOptions:
 plugins:
   - '@typescript-eslint'
 rules: {}
+ignorePatterns:
+  - 'dist/'
