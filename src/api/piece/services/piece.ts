@@ -2,6 +2,6 @@
  * piece service.
  */
 
-import { factories } from '@strapi/strapi';
+import { factories } from '@strapi/strapi'
 
-export default factories.createCoreService('api::piece.piece');
+export default factories.createCoreService('api::piece.piece')
